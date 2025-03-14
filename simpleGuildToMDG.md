@@ -142,13 +142,15 @@ Users with inactive accounts cannot log in.
 - They store **multi-line data** such as JSON, XML, or logs.
 
 #### **Example: Doc Strings**
+
 <!-- markdownlint-disable MD004 MD040 -->
-```markdown
+
+````markdown
 ### Scenario: API responds with user details
 
 * Given the API returns the following response:
 
-  ```json
+  ```
   {
     "id": 123,
     "username": "john_doe",
@@ -158,12 +160,14 @@ Users with inactive accounts cannot log in.
 
 * Then the user should see "Admin Dashboard"
 
-```
+````
+
 <!-- markdownlint-enable MD004 MD040 -->
 
 ---
 
 ### **2.7 Tags**
+
 - **Tags must be enclosed in backticks (`)**
 - **Tags must be placed above scenarios**
 
